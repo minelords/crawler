@@ -12,7 +12,7 @@ options.add_argument('--headless')
 # 2. driver
 driver = webdriver.Chrome(options=options)
 
-url='http://119.23.213.95:8001'
+url='http://119.xxxxx.95:8001'
 driver.get(url)
 print("start...\nplease wait a moment...")
 time.sleep(20) #为什么不用隐性或者显性等待呢，因为都有问题，所以只能自己修改sleep时间

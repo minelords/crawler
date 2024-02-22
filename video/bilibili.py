@@ -61,10 +61,10 @@ def audioAndVideo(audioFile,videoFile):
 def main():
     html = askURL(url = 'https://www.bilibili.com/video/BV1GF411c7dA')
     jsonData = getVideoInfo(html)
-    ## pprint可以按照标准的方式打印字典，便于查阅
+    ## print可以按照标准的方式打印字典，便于查阅
     pprint.pprint(jsonData)
     download(jsonData)
-   	audioAndVideo(r'C:\Users\zjc6\Desktop\VideoClawer\BiliBiliClawer\python教程.mp3',r'C:\Users\zjc6\Desktop\VideoClawer\BiliBiliClawer\python教程.mp4')
+   	audioAndVideo(r'C:\Users\xxx6\Desktop\VideoClawer\BiliBiliClawer\python教程.mp3',r'C:\Users\xxxx\Desktop\VideoClawer\BiliBiliClawer\python教程.mp4')
     pass
 
 

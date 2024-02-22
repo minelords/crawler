@@ -26,7 +26,7 @@ def save_file():
 os.environ["http_proxy"] = "http://127.0.0.1:2080"
 os.environ["https_proxy"] = "http://127.0.0.1:2080"
 
-url = "http://119.23.213.95:8001"
+url = "http://119.xxxxx.95:8001"
 
 payload = {
     "prompt": "photo of beautiful age 18 girl, blonde hair, sexy, beautiful, naked, perfect breasts, big boobs, nipples, dslr, 8k, 4k, cinematic film still, natural skin, textured skin, outdoors, snow,",
