@@ -17,14 +17,7 @@ class Spider(object):
         "http": "127.0.0.1:2080"
      }
         res=requests.get(url=url,headers=headers,proxies=proxy)
-        soup = BeautifulSoup(res.text, "html.parser")
-        iframes = soup.find_all('iframe')
-        for iframe in iframes:
-            print(iframe)
-        pattern=re.compile(r'<iframe.*?src="(.*?)".*?></iframe>',re.S)
-        r_list=pattern.findall(str(iframe))
-        for r in r_list:
-            print(r)
+        print(res.text)
 
     def run(self):
         url=self.url

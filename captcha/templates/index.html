@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block body %}
+    <div class="content-container">
+        <h3 class="section-title">实验1 CAPTCHA介绍及实验环境搭建</h3>
+        <p class="section-description">
+            简要介绍CAPTCHA的原理和常见形式并搭建实验环境，为后续实验奠定基础。
+        </p>
+
+        <h3 class="subsection-title">实验2 基于图片分类的CAPTCHA绕过</h3>
+        <p class="subsection-description">
+            分析图片内容，从中提取目标物体，利用计算机视觉技术如目标检测模型自动识别并选择正确的图片。
+        </p>
+
+        <h3 class="subsection-title">实验3 基于文字识别的CAPTCHA绕过</h3>
+        <p class="subsection-description">
+            使用光学字符识别（OCR）工具处理扭曲文字，结合图像预处理技术（如去噪、校正）提升识别精度。
+        </p>
+
+        <h3 class="subsection-title">实验4 基于语义或推理的CAPTCHA绕过</h3>
+        <p class="subsection-description">
+            结合自然语言处理与逻辑推理技术，自动解析问题语义并生成答案完成绕过。
+        </p>
+    </div>
+{% endblock %}
